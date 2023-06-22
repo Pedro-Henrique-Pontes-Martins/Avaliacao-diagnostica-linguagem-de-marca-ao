@@ -1,0 +1,120 @@
+html{
+    background-color: black;
+    color: whitesmoke;
+    padding: 0;
+    margin: 0;
+}
+body{
+    padding: 0;
+    margin: 0;
+    overflow:visible;
+}
+.lista{
+    width: 80%;
+    margin: 2% 10%;
+}
+.Inicio{
+    width: 80%;
+    margin: 2% 10%;
+}
+.Inicio a{
+    margin:40%;
+    color: whitesmoke;
+}
+h1{
+    text-align: center;
+}
+img{
+    margin: 0 25%;
+}
+table{
+    width: 60%;
+    margin: 0 25%;
+}
+h2{
+    margin-top: 5%;
+    text-align: center;
+}
+td{
+    background-color: slategrey;
+    text-align: center;
+}
+form{
+    width: 80%;
+    margin: 5% 25%;
+}
+form h2{
+    text-align: left;
+}
+label{
+    margin-top: 5%;
+    display: block;
+    font-size: 15px;
+}
+input{
+    height: 50px;
+    width: 30%;
+}
+textarea{
+    height: 50px;
+    width: 30%;
+}
+.enviar{
+    margin: 2%;
+    display: block;
+    height: 40px;
+    width: 15%;
+}
+nav{
+    padding: 0;
+    margin: 0;
+    width:10%;
+    height: 40px;
+}
+nav a{
+    margin: 0;
+    color: whitesmoke;
+}
+.boxModel{
+    width: 80%;
+    margin: 0 10%;
+}
+.boxModel ul{
+    margin-left: 40%;
+}
+.Margem{
+    margin-left: 10%;
+}
+h4{
+    text-align: center;
+}
+.Padding{
+    padding-left: 10%;
+}
+.Border{
+    border-color: whitesmoke;
+    border: 2px solid ;
+    padding: 10px;
+}
+.Content::after{
+    content: '????';
+}
+.PseudoClasses{
+    width: 80%;
+    margin: 0 10%;
+}
+.PseudoClasses ul{
+    margin-left: 40%;
+}
+.PseudoClasses h4{
+    margin:0;
+}
+.hover:hover{
+    color: blue;
+}
+.after::after{
+    content: '?';
+}
+.before::before{
+    content: '?';
+}
